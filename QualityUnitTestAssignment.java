@@ -1,6 +1,5 @@
 /**
  * Test assignment for Quality Unit
- * 
  */
 import java.util.*;
 import java.io.*;
@@ -176,7 +175,8 @@ public class QualityUnitTestAssignment {
                                  boolean_service_id = true;
                               }
                          } 
-                         if ((C_service_id.length()==1) || (!C_service_id.contains("."))){                            String tempC = C_service_id.substring(0,C_service_id.length());
+                         if ((C_service_id.length()==1) || (!C_service_id.contains("."))){                            
+                             String tempC = C_service_id.substring(0,C_service_id.length());
                              if (tempD.equals(tempC)){
                                  boolean_service_id = true;
                               }
@@ -257,7 +257,7 @@ public class QualityUnitTestAssignment {
                 }// closing for if ((boolean_service_id == true) && (boolean_question_type_id == true))
              
              //Search in C and D queries by date
-             if ((boolean_service_id.equals(true)) && (boolean_question_type_id.equals(true)) && (boolean_responseType.equals(true))){                   //boolean_date = false;
+             if ((boolean_service_id.equals(true)) && (boolean_question_type_id.equals(true)) && (boolean_responseType.equals(true))){ 
                  try {
                      boolean_date = DateCompare (D_date, C_date);
                     }
