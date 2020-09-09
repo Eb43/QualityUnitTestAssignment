@@ -1,8 +1,6 @@
 /**
  * Test assignment for Quality Unit
  * 
- * Eugen Barilyuk
- * eugen.barilyuk@gmail.com
  */
 import java.util.*;
 import java.io.*;
